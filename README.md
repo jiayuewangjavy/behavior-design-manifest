@@ -13,6 +13,13 @@ The most successful AI products are the ones users don't notice. Adoption is dri
 
 A Behavior Design spec declares — in one version-controlled, testable document — how an agent behaves: what it is, what it must never do, when it escalates to a human, and what "done" means.
 
+## 5-minute quickstart
+
+1. Pick one user request and copy the [spec template](template/behavior-design-spec.md).
+2. Write three rules: what the agent can do now, when it must ask, and what it must never do. For example: “Draft a shipping update; ask before sending; never change the order.”
+3. Define what counts as done. “Draft is ready for review” and “Message sent with a receipt” are two different outcomes.
+4. Test two paths: a routine request the agent can handle and a boundary case where it should stop. Then use the [review checklist](checklist.md) to fill out the rest of the spec.
+
 ## What's inside
 
 | Path | What it is |
