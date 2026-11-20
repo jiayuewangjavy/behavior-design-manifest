@@ -74,7 +74,7 @@ You are an agent responsible for **answering order and logistics questions for e
 ```
 [STEPS]   Verified order #12345 → queried logistics status
 [ANSWER]  Your package is expected to arrive tomorrow.
-[ACTIONS] Sent a delivery-reminder SMS. No order data modified.
+[ACTIONS] Looked up logistics status. No message sent; no order data modified.
 ```
 
 Errors are presented as: what failed, what the agent did instead, and the next step for the user.
