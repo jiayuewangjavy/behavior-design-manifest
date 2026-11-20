@@ -27,6 +27,7 @@ A Behavior Design spec declares — in one version-controlled, testable document
 | `template/behavior-design-spec.md` | The 10-element spec template, ready to fill in |
 | `examples/sales-lead-agent.md` | Example: a sales-lead completeness checker |
 | `examples/customer-service-agent.md` | Example: a customer-service agent with staged rules |
+| [`examples/release-note-approval.md`](examples/release-note-approval.md) | Example: draft autonomously, ask before publishing, and verify the result |
 | `checklist.md` | Definition-of-Done review checklist |
 
 ## The 10 elements
